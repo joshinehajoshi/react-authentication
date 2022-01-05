@@ -4,9 +4,9 @@ import Login from './Components/Login';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Login />
-      </header>
+     <div className="g-signin">
+      <Login />
+    </div>
     </div>
   );
 }
